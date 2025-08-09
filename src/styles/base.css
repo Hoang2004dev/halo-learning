@@ -1,0 +1,34 @@
+/* base.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans text-slate-800 antialiased leading-relaxed;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Lớp 1: hoa văn Topography (repeat) | Lớp 2: gradient nền */
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='60'%3E%3Cg fill='none' stroke='%2399c2ff' stroke-width='1.2' opacity='0.3'%3E%3Cpath d='M0 30 Q 30 0, 60 30 T 120 30 T 180 30'/%3E%3C/g%3E%3C/svg%3E") repeat,
+    linear-gradient(to bottom right, #f0f9ff, #e0f7fa);
+  background-size: 120px 60px, auto;
+}
+
+/* Dark mode */
+.dark body {
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 220 220'%3E%3Cg fill='none' stroke='%236b7280' stroke-width='1' opacity='0.20'%3E%3Cpath d='M0 18 C 45 10, 175 28, 220 18'/%3E%3Cpath d='M0 56 C 55 46, 165 66, 220 56'/%3E%3Cpath d='M0 94 C 40 84, 180 104, 220 94'/%3E%3Cpath d='M0 132 C 65 122, 155 142, 220 132'/%3E%3Cpath d='M0 170 C 50 160, 170 180, 220 170'/%3E%3Cpath d='M0 208 C 60 198, 160 218, 220 208'/%3E%3C/g%3E%3C/svg%3E") repeat,
+    linear-gradient(to bottom right, #1f2937, #111827);
+  background-size: 220px 220px, auto;
+}
+
+/* code font giữ nguyên */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Ẩn scrollbar tiện dụng */
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { -ms-overflow-style: none; scrollbar-width: none; }

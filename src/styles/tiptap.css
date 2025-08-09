@@ -1,0 +1,14 @@
+/* Editor content area */
+.editor-content {
+  @apply prose prose-sm max-w-none;
+}
+
+/* Button base */
+.btn {
+  @apply px-2 py-1 rounded border text-gray-600 hover:bg-gray-100 transition;
+}
+
+/* Button active */
+.btn-active {
+  @apply px-2 py-1 rounded border border-blue-400 text-blue-600 bg-blue-50;
+}

@@ -1,0 +1,19 @@
+/* utilities.css */
+@tailwind utilities;
+
+/* ✅ Extra utility classes */
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
