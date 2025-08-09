@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halo.Api", "Halo.Api\Halo.Api.csproj", "{FFFF667E-3166-4346-8E1C-938ECC957D1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halo.Domain", "Halo.Domain\Halo.Domain.csproj", "{08EDD53C-B2EE-4D67-ABE0-C986E4FCE019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halo.Application", "Halo.Application\Halo.Application.csproj", "{5BC12155-5D68-4987-BBDC-125F5A716369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halo.Infrastructure", "Halo.Infrastructure\Halo.Infrastructure.csproj", "{CDE46C7A-97DD-4D0A-A625-3F47BE737DA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFFF667E-3166-4346-8E1C-938ECC957D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFFF667E-3166-4346-8E1C-938ECC957D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFFF667E-3166-4346-8E1C-938ECC957D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFFF667E-3166-4346-8E1C-938ECC957D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08EDD53C-B2EE-4D67-ABE0-C986E4FCE019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EDD53C-B2EE-4D67-ABE0-C986E4FCE019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EDD53C-B2EE-4D67-ABE0-C986E4FCE019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EDD53C-B2EE-4D67-ABE0-C986E4FCE019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC12155-5D68-4987-BBDC-125F5A716369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC12155-5D68-4987-BBDC-125F5A716369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC12155-5D68-4987-BBDC-125F5A716369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC12155-5D68-4987-BBDC-125F5A716369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE46C7A-97DD-4D0A-A625-3F47BE737DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE46C7A-97DD-4D0A-A625-3F47BE737DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE46C7A-97DD-4D0A-A625-3F47BE737DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE46C7A-97DD-4D0A-A625-3F47BE737DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5A1F5E1-FE9F-4E8E-AEE8-1B084D1392AA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+﻿dotnet ef migrations add Add_Description_To_VocabItem_And_GrammarItem --project Halo.Infrastructure --startup-project Halo.Api --output-dir Persistence\Migrations --context HaloDbContext
+
+dotnet ef database update --project Halo.Infrastructure --startup-project Halo.Api --context HaloDbContext
+
+
