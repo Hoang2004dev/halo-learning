@@ -1,0 +1,29 @@
+# Normalize line endings for text files
+* text=auto eol=lf
+
+# Treat C# files as text
+*.cs text diff=csharp
+
+# Ensure JSON and XML are treated as text
+*.json text
+*.xml text
+*.yml text
+*.yaml text
+
+# Binary files (no diff)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.exe binary
+*.dll binary
+*.pdb binary
+*.mp4 binary
+*.mp3 binary
+
+# Exclude from linguist stats (optional)
+*.min.js linguist-vendored
+*.min.css linguist-vendored
